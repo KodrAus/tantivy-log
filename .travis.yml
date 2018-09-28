@@ -1,0 +1,12 @@
+language: rust
+rust:
+  - nightly
+cache: cargo
+
+script:
+  - cargo test
+  - cargo run
+
+notifications:
+  email:
+    on_success: never
