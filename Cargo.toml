@@ -1,0 +1,15 @@
+[package]
+name = "tantivy-log"
+version = "0.0.0"
+authors = ["Ashley Mannix <ashleymannix@live.com.au>"]
+edition = "2018"
+publish = false
+license = "MIT"
+
+[dependencies]
+tantivy = "~0.7"
+log = { git = "https://github.com/KodrAus/log.git", branch = "feat/structured-ser-macro", features = ["std"] }
+serde = "~1"
+serde_derive = "~1"
+serde_json = "~1"
+failure = "~0.1"
